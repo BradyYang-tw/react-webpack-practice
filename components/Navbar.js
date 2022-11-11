@@ -1,9 +1,10 @@
 import React from "react";
+import "./Navbar.css";
 
-const Nav = () => {
+const Navbar = () => {
   return (
     <nav>
-      <img src="../react_pic.png" width="400px"></img>
+      <img src="../react_pic.png" width="40px"></img>
       <ul>
         <li>Pricing</li>
         <li>About</li>
@@ -12,3 +13,5 @@ const Nav = () => {
     </nav>
   );
 };
+
+export default Navbar;

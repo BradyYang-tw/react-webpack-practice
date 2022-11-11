@@ -1,12 +1,11 @@
 import React from "react";
+import Navbar from "./components/Navbar";
 const App = () => {
   return (
     <div>
       <header>
-        <nav>
-          <img src="./react_pic.png" width="40px"></img>
-          <h1>Fun facts about React</h1>
-        </nav>
+        <Navbar></Navbar>
+        <h1>Fun facts about React</h1>
       </header>
 
       <ul>
